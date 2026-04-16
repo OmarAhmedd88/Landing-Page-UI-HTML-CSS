@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.container{
+    padding: 15px;
+}
+nav{ 
+    height: 60px;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+
+nav ul li{
+margin-right: 115px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.justify-content-betweenn{
+    justify-content: flex-end;
+
+}
+nav .logo{
+    text-transform: uppercase;
+    color: white;
+    padding-left: 6%;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.logo .white{
+    color: white;
+}
+nav .logo .colored{
+    color: rgb(255, 166, 0);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.gap{
+    gap: 7px;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.326);
+    height: 300px;
+}
+nav ul li a{
+    margin: 0px -15px;
+}
+.landing{
+    background-image: url("../images/building2.png");
+    background-size: cover;
+color: white;
+align-items: center;
+
+}
+.left{
+    width: 30%;
+    padding-left: 78px;
+    padding-top: 40px;
+}
+.landing .right form{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: white;
+    
+}
+.linkscale:hover{
+    color: rgb(121, 125, 93);
+
+}
+.landing .right form h3{
+    background-color: #eee;
+    
+    padding: 10px 30px;
+}
+.landing .right form input{
+    border: none;
+    padding: 0px 25px;
+    margin: 5px 10px ;
+    border-bottom: 0.3px solid rgb(70, 60, 60) ;
+
+}
+.landing .right form input[type="submit"]{
+    padding: 17px;
+    border: none;
+}
+
+.yellow{
+    color: rgb(213, 213, 12);
+}
+.landing .right form input::focus{
+    outline: none;
+}
+.btn2{
+    background-color: rgb(228, 145, 62);
+    margin: 0 !important;
+    padding: 10px;
+    color: white;
+}
+.btn2:hover{
+    background-color: rgb(247, 215, 4);
+}
+.btn:hover{
+    transform: scale(1.14,1.14);
+    border: 2px solid rgb(161, 255, 252);
+    background-color: rgba(17, 78, 78, 0.395);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.landing .text .capitalize{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    font-size: x-large;
+
+}
+.normal{
+    font-size: small;
+    font-weight: 100;
+}
+.landing .text hr{
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.landing .logo h2{
+    font-size: 50px;
+}
+.landing .logo .colored{
+    color: rgb(227, 159, 12);
+ font-size: 48px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+border: 2px solid white;
+margin-top: 20px;
+margin-left: 1%;
+padding: 8px 20px;
+
+background-color: transparent;
+color: white;
+
+}
+.linkscale{
+    position: absolute;
+    top: 25px;
+    
+}
+.right{
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.left{
+    padding-bottom: 200px;
+    padding-left: 100px;
+}
+.hrr{
+    color: white;
+}
+.social{
+    margin-top: 20%;
+    margin-left: 9%;
+}
+.sm {
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    gap: 50px; 
+    margin-top: -60px; 
+    margin-left: 280px;
+}
+.sm a{
+    font-size: 50px;
+    color: rgb(180, 172, 172);
+    transition: color 0.4s ease;
+}
+.sm a:hover{
+    color: orange;
+}
+.smm{
+   margin-top:22px;
+    color: rgb(157, 241, 216);
+}
+.lorem{
+    color: rgb(132, 199, 179);
+}
+.social h3{
+    margin-bottom: 3px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
